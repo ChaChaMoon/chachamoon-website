@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaChaMoon's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #388e3c;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #81c784;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+        }
+        .about-me, .blog, .projects, .music {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #388e3c;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .nature-photo, .teddy-bear-photo {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ChaChaMoon</h1>
+        <p>Swinging in Uncertainty</p>
+    </header>
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#blog">Blog</a>
+        <a href="#projects">Projects</a>
+        <a href="#music">Music</a>
+    </nav>
+    <section id="about-me" class="about-me">
+        <h2>About Me</h2>
+        <p>Hello! I'm ChaChaMoon, and I'm always swinging in uncertainty. Welcome to my personal space where I share my thoughts, projects, and music. Let's embark on this journey together!</p>
+        <img src="nature-photo.jpg" alt="Nature photo" class="nature-photo">
+    </section>
+    <section id="blog" class="blog">
+        <h2>Blog</h2>
+        <p>Stay tuned for my latest blog posts where I share my musings, experiences, and adventures.</p>
+        <img src="teddy-bear-photo.jpg" alt="Teddy bear photo" class="teddy-bear-photo">
+    </section>
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've been working on. Check them out and feel free to provide feedback!</p>
+    </section>
+    <section id="music" class="music">
+        <h2>Music</h2>
+        <p>Music is my passion. Listen to some of the tracks I've created and let me know what you think.</p>
+    </section>
+    <footer>
+        <p>© 2024 ChaChaMoon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
